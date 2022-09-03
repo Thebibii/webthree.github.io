@@ -19,6 +19,7 @@ themeToggler.addEventListener('click', () => {
 	themeToggler.querySelector('i:nth-child(2)').classList.toggle('active');
 });
 
+/* LOADER */
 function loaderActive() {
 	loader.classList.add('loader-active');	
 }
@@ -28,5 +29,4 @@ function loaderActiveTime() {
 }
 
 window.onload = loaderActiveTime();
-
-
+/* LOADER */
